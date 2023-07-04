@@ -1,0 +1,83 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-wrapper {
+    background-color: #ffff;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    padding: 25px;
+    font-weight: 250;
+}
+
+.todo-wrapper h2 {
+    margin: 0;
+}
+
+.todo-wrapper p {
+    font-style: italic;
+    color: gray;
+    margin: 5px 0;
+}
+
+.todo-wrapper ol {
+    margin: 20px 0;
+}
+
+.todo-wrapper ol li {
+    margin: 5px 0;
+    padding: 3px;
+    transition: all 0.5s ease-out;
+}
+
+.todo-wrapper form {
+    display: inline-block;
+}
+
+.todo-wrapper input {
+    padding: 3px;
+    width: 460px;
+    border: 2px solid gray;
+}
+
+.todo-wrapper .pretty-button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.todo-wrapper .pretty-button { 
+    margin: 10px 2px;
+    color: white;
+    background-color: yellowgreen;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.todo-wrapper .control-wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.todo-wrapper .control-wrapper #clear-completed-button {
+    background-color: salmon;
+}
+
+.todo-wrapper .control-wrapper #empty-button {
+    background-color: darkseagreen;
+}
+
+.todo-wrapper .control-wrapper #save-button {
+    background-color: lightskyblue;
+}
+
